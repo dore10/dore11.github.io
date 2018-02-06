@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="../style5.css" type="text/css"> 
+</head>
+
+<body>
+
+<div class="container">
+
+<!--Меню-->
+   
+    <div class="header">
+    
+       <img class="ramka1" src="../fotomag/logotyp.png" alt="Логотип" width="150px" height="120px">
+            
+       <h3 class="menu_naz">МЕНЮ:</h3>
+           <ul class="menu">
+              <li><a href="../index.html">Главная</a></li>
+              <li><a href="../pagemag/catalog.html">Каталог</a></li>
+              <li><a href="../pagemag/contact.html">Контакты</a></li>
+           </ul>
+         
+       <hr class="cherta" color="#400080" size="3">
+    
+   </div>
+  
+     
+<!--Содержание страницы--> 
+  
+  <div class="content">
+   
+<!--Форма отправки-->
+
+      <h1 class="osn">Напишите нам</h1>
+      
+      <form action="">
+    <fieldset>
+      Ваше Имя <input type="text" placeholder="Введите Ваше Имя">
+      Пароль <input type="password" size="15" placeholder="Введите пароль" pattern="[0-9]{1,8}"> <br> <br>
+      
+      <div class="wrapper">
+           <label for="pochta">E-mail</label>
+           <input id="pochta" type="email" name="email">
+      </div> <br>
+           <!--e-mail <input id="emailAddress" type="email">
+           E-mail<a href="mailto:nayshnik@gmail.com"> Пишите нам!</a> <br><br>-->
+    
+      Цель обращения <select> <br>
+         <option disabled>Выберите пункт</option>
+         <option value="Другое">Другое</option>
+         <option value="Отзыв">Отзыв</option>
+         <option value="Вопрос">Вопрос</option>
+         <option value="Жалоба">Жалоба</option>
+     </select> <br><br>
+     
+     Тема <input type="text" size="40" placeholder="Тема сообщения"> <br>  <br>
+     
+     Текст сообщения <br> <textarea name="text"></textarea>  <br><br>
+     <input type="submit" value="Сохранить и отправить"> <input type="reset" value="Отмена">
+     </fieldset>
+      </form>
+    
+<!--Контакты-->
+    
+     <h1 class="osn">Адрес</h1>
+   
+    <p><b>тел.</b> &#40;099&#41; 222-33-222</p>
+    <p><b>тел&#40;факс.&#41;</b> &#40;099&#41; 222-33-223</p>
+    <p><b>e-mail:</b> nayshnik@gmail.com </p>
+    <p><b>Время работы:</b></p>
+    <p>пн - вс: 0.00 - 24.00 </p>
+    <p><b>Адрес:</b></p>
+    <p>04073, г. Киев, пр-т С. Бандеры, 8</p>
+<!--Карта-->
+     <iframe src="https://www.google.com/maps/d/embed?mid=12A1i32gK_XoGtAwfM0RaeRz41AQ1Z3gq" width="100%" height="374"></iframe>
+    
+ </div>
+
+<!--Строка-->
+  
+  <div class="stroka">
+  <marquee behavior="scroll" bgcolor="#F0B58C" style="font-size: 14pt; color:#952292">"Наушники for YOU"</marquee> <br>
+  </div>
+
+<!--Footer-->
+  
+  <div class="footer">
+      
+    <hr class="cherta1" color="#400080" size="3">
+    <p><b>&copy; <i> Все права защищены</i></b></p>
+  </div>
+    
+    
+</div>
+    
+</body>
+</html>

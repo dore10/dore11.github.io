@@ -1,0 +1,265 @@
+/*Блок containe*/
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+/*Цвет фона страницы*/
+
+body {
+    background-color: #f8f8f8;
+}
+.content {
+    border: 1px dotted #400080;
+    background-color: #F1CDF5;
+    padding: 0px 10px 5px 10px;
+    overflow: hidden;
+}
+
+/*Стиль блока header*/
+
+.header {
+    height: 180px;
+    border: 1px dotted #400080;
+    background-image: url(fotomag/fon3.jpg);
+    background-color:#EEFF9D;
+    position: relative;
+}
+
+/*Стиль элементов меню, расположение меню*/
+
+.menu {
+    position: absolute;
+    top: 30px;
+    right: 0px;
+}
+.menu_naz {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.menu li{
+     display: inline-block;
+     list-style-type: none;
+     outline: #400080 solid 1px;
+     background-color: #F1CDF5;
+     padding: 5px 10px;
+     margin: 3px;
+}
+.menu li a {
+    color: #400000;
+    font-size: 18px;
+    font-style: italic;
+}
+.menu li a:hover {
+    color: #3723C7;
+}
+
+/*Рамка вокруг Логотипа, расположение Логотипа*/
+
+.ramka1 {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    float: left;
+    border: 3px brown groove;
+} 
+
+/*Расположение черты*/
+
+.cherta {
+    clear: both;
+}
+
+/*Стиль блока footer*/
+
+.footer {
+    height: 80px;
+    padding-top: 40px;
+    padding-right: 10px;
+    border: 1px dotted #400080;
+    background-color:#EEFF9D;
+    background-image: url(fotomag/fon3.jpg);
+    text-align: right;
+    position: relative;
+ }
+
+.stroka {
+    height: 22px;
+    clear: both;
+}
+
+/*Расположение черты1*/
+
+.cherta1 {
+    position:absolute;
+    width: 1298px;
+    top: 20px;
+}
+
+/*Оформление содержания Главной страницы*/
+
+h3{
+       color: #800000;
+}
+.osn {
+    color: brown;
+ }
+#osn1 {
+    color: #400080;
+}
+
+/*Форматирование заголовка*/
+
+.zag {
+    color: black;
+    font-size: 18p;
+    font-weight: 400;
+    background-color: #eaeaea;
+    clear: both;
+}
+
+/*Рамка вокруг фото изображений товара*/
+
+.ramka {
+    outline: #400080 double thick;
+    float: left;
+    margin: 0px 20px 20px 10px;
+} 
+.ramka:hover {
+    outline: none;
+}
+/*Кнопка Купить*/
+    
+input[type="button"]{
+    color: #400080;
+    background-color: #EEFF9D;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 20px;
+    
+}
+input[type="button"]:focus{
+    background-color: aquamarine;
+}
+/*Форматирование Краткое описание товара*/
+
+.kratkoe {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+    overflow: hidden;
+}
+
+/*Форматирование Подробное описание товара*/
+
+.podrobnoe {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 24px;
+    text-align: left;
+}
+
+/*Форматирование элементов Характеристика товара*/
+
+.tovar li{
+    color: #3E3E3E;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: oblique;
+    line-height: 20px;
+ }
+.tovar {
+    list-style-image: url(fotomag/ris2.jpg);
+   /* list-style: none;
+    background: url(fotomag/ris2.jpg) left center no-repeat;
+    padding: 4px 0 4 px 25 px;*/
+}
+
+/*Таблица Технические характеристики товара*/
+
+.texn {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 500px;
+    text-align: center;
+}
+.texn th {
+    width: 30%;
+}
+.texn td {
+    border: 1px solid black;
+    background-color: bisque;
+}
+#zagtable {
+    height: 80px;
+    font-weight: 800;
+   color: #400080; 
+}
+
+/*Каталого*/
+
+.product {
+    float: left;
+    width:350px;
+    padding: 20px;
+   text-align: center;
+}
+
+/*Стиль полей ввода на странице Контакты*/
+  
+/*Общее*/
+
+input[type="text"]{
+    width: 300px;
+    height: 20px;
+        }
+input[type="password"], input[id="pochta"], select {
+    width: 200px;
+    height: 20px;
+       }
+textarea {
+     width: 200px;
+    height: 150px;
+    }
+input[type="text"],input[type="password"], input[id="pochta"], select, textarea
+{
+    color: brown;
+    font-size: 15px;
+    font-style: oblique;
+    background-color: #ffe;
+    }
+   
+/*Заглавные буквы*/
+
+input[type="text"],textarea
+{
+    text-transform: capitalize;
+}
+
+/*Изменение цвета шрифта и фона при наведении на графу Почта*/
+
+input[id="pochta"]:focus 
+{
+ color: darkblue; background-color: aquamarine;   
+}
+
+/*Заглавные буквы
+
+.podrobnoe:first-letter {
+    font-size: 30px;
+    font-style: italic;
+    font-family:monospace;
+    color: red;
+}
+.kratkoe:first-letter {
+    font-size: 30px;
+    font-style: italic;
+    font-family:monospace;
+    color: red;
+} */
